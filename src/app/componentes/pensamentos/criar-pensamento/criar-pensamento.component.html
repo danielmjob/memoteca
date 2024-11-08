@@ -13,6 +13,7 @@
       id="pensamento"
       name="pensamento"
       placeholder="Digite o pensamento"
+      [value]="pensamento.conteudo"
     />
     <label for="autoria">Autoria</label>
     <input
@@ -21,6 +22,7 @@
       id="autoria"
       name="autoria"
       placeholder="Digite a autoria ou fonte"
+      [value]="pensamento.autoria"
     />
 
     <label for="modelo">Selecione o modelo do card:</label>
@@ -36,8 +38,10 @@
         Prévia:
         <div class="modelo modelo1 ff-roboto-mono">
           <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis" />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><b>Aqui vai a autoria</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <b>{{ pensamento.autoria }}</b>
+          </p>
         </div>
       </div>
 
@@ -52,8 +56,10 @@
         Prévia:
         <div class="modelo modelo2 ff-roboto-mono">
           <img src="../../../../assets/imagens/modelo2.png" alt="Aspas azuis" />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><b>Aqui vai a autoria</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <b>{{ pensamento.autoria }}</b>
+          </p>
         </div>
       </div>
 
@@ -68,8 +74,10 @@
         Prévia:
         <div class="modelo modelo3 ff-roboto-mono">
           <img src="../../../../assets/imagens/modelo1.png" alt="Aspas azuis" />
-          <p class="conteudo">Aqui vai o conteúdo</p>
-          <p class="autoria"><b>Aqui vai a autoria</b></p>
+          <p class="conteudo">{{ pensamento.conteudo }}</p>
+          <p class="autoria">
+            <b>{{ pensamento.autoria }}</b>
+          </p>
         </div>
       </div>
     </div>
