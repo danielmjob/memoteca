@@ -16,4 +16,11 @@ export class CriarPensamentoComponent implements OnInit {
   constructor() {}
 
   ngOnInit(): void {}
+
+  criarPensamento() {
+    alert('Clicou no Salvar');
+  }
+  cancelar() {
+    alert('Clicou no cancelar');
+  }
 }
