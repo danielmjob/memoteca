@@ -1,0 +1,22 @@
+{
+  "pensamentos": [
+    {
+      "id": 1,
+      "conteudo": "Pensamento vindo do db.json",
+      "autoria": "Daniel",
+      "modelo": "modelo1"
+    },
+    {
+      "id": 1,
+      "conteudo": "Outro pensamento",
+      "autoria": "Daniel",
+      "modelo": "modelo2"
+    },
+    {
+      "id": 1,
+      "conteudo": "Mais um pensamento",
+      "autoria": "Daniel",
+      "modelo": "modelo3"
+    }
+  ]
+}
